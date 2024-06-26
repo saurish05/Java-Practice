@@ -1,0 +1,43 @@
+Multiline Comment: /* comment */
+Single-Line Comment: // comment
+Documentation Comment: /** comment */
+
+Chapter 3: Data Types, Variables, and Arrays
+Java is Strongly Typed
+
+Every variable must have a declared type.
+Types ensure correctness of operations performed on variables.
+
+Integers: byte, short, int, long
+Floating-Point Types: float, double
+Characters: char
+Booleans: boolean
+Literals
+
+Integer literals (e.g., 100)
+Floating-point literals (e.g., 100.5)
+Boolean literals (true, false)
+Character literals ('A')
+String literals ("Hello")
+Variables
+
+Declaring a Variable: type variableName;
+Dynamic Initialization: Initializing a variable at the point of declaration.
+Scope and Lifetime: The region of the program where the variable is accessible.
+Type Conversion and Casting
+
+One-Dimensional Arrays: type[] arrayName = new type[size];
+Multidimensional Arrays: type[][] arrayName = new type[rows][cols];
+Alternative Syntax: type arrayName[];
+Strings
+
+\ddd -- Octal character (ddd)
+\uxxxx -- Hexadecimal Unicode character (xxxx)
+\' -- Single quote
+\" -- Double quote
+\\ -- Backslash
+\r -- Carriage return
+\n -- New line (also known as line feed)
+\f -- Form feed
+\t -- Tab
+\b -- Backspace

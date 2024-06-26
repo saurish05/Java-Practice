@@ -1,0 +1,192 @@
+JDK -- Java Development Kit
+Compile -- javac 
+
+JRE - Java Runtime Environment
+Runing -- java 
+
+
+JSE / J2SE -- Java (2) Standard Edition
+
+JEE / J2EE - Java (2) Enterprise Edition
+EJB -- Enterprise Java Beans
+
+JVM --- Java Virtual Mechine
+
+_____________________________________________________________________________
+class FirstJavaProgram {
+
+	public static void main(String args[]){
+		System.out.print("Hello JCT");
+		System.out.println("Hello JCT");
+		System.out.printf("Hello JCT");
+	}
+}
+
+
+
+
+
+
+
+5  --- 101
+		5 /2 = 2 --- 1
+		2 / 2 = 1 -- 0
+		1 / 2 = 0 -- 1
+
+		23 -- 10111
+		23 /2 = 11 --- 1
+		11 / 2 = 5 --- 1
+		5 / 2 =  2  --- 1
+		2 / 2 = 1 --- 0
+		1/2 = 0 --- 1
+
+
+		101 --- 5
+		1*2^2  + 0*2^1   + 1*2^0
+			4+0+1 - 5
+
+	10111
+	1*2^4 + 0*2^3 + 1*2^2 + 1*2^1 + 1*2^0
+
+		16+0 + 4 + 2 + 1 = 23
+
+____________________________________________________________________________
+
+// binary number 
+		// 
+		// decimal number 
+		// Octal number
+/*
+	6 -- 6
+	6 /8 = 0 --- 6
+
+
+	14(D) -- 16 (O)
+	14 / 8 = 1 - 6
+	1 /8 = 0 - 1
+
+	123 (D)-- 173 (O)
+	123 / 8 = 15  -- 3
+	15 / 8 = 1 -- 7
+	1/8 = 0 -- 1
+
+	16 (O) -- 14(D)
+	1*8^1 + 6*8^0
+	8+6 = 14
+*/ 
+
+		// Hexa number
+/*
+	10 - A
+	11 - B
+	12 - C
+	13 - D
+	14 - E
+	15 - F
+
+
+	123 (D) - 7B (X)
+
+	123 / 16 = 7 -- B
+	7 / 16 = 0 -- 7
+
+*/
+
+______________________________________________________________________________________
+
+
+Standards -- 
+we will maintain class name as document name --
+class Name -- starting with Capital - Every next word starts with Cap
+varialbes -- starts with small - Every next word with Caps
+
+min 3 chars - with meaningful name - 
+
+identifiers rules -- there should not be any space -- it should be a singleWord
+			combination of  --- az AZ _ $ 09
+			cannot start with number
+			max length --  unlimited
+
+
+
+_______________________________________________________________________________________
+
+
+\n -- new line
+		\r -- carriage return
+		\t -- tab
+		\\ -- \
+		\'  -- '
+		\" -- "
+
+
+
+
+_______________________________________________________________________________________
+
+
+boolean bvalue = true; // false
+		char chvalue = 'A'; // 2 bytes -- Unicode charectors
+		byte bite = 0; // 1 byte value -128 to 127
+		short svalue = 123; // 2 bytes
+		int ivalue = 123456; // 4 bytes
+		long lvalue = 98766543L; // 8 bytes
+		float fvalue = 3.234f; // 4 bytes
+		double dvalue = 345.6789; // 8 bytes
+
+		System.out.println("Bool  " + bvalue );
+		System.out.println("Char  " + chvalue);
+		System.out.println("Bite  " + bite);
+		System.out.println("Short  " + svalue );
+		System.out.println("Integer  " + ivalue );
+		System.out.println("Long  " + lvalue );
+		System.out.println("Floating  " + fvalue );
+		System.out.println("Double  " + dvalue );
+System.out.println();
+		System.out.printf("Char  %c \n",chvalue);
+		System.out.printf("Bite  %d\n", bite);
+		System.out.printf("Short  %d\n", svalue );
+		System.out.printf("Integer  %d\n", ivalue );
+		System.out.printf("Long  %d\n", lvalue );
+		System.out.printf("Floating  %f\n", fvalue );
+		System.out.printf("Double  %f\n", dvalue );
+
+________________________________________________________________________________________________
+
+
+Unanry Operators --- Which will work on One Operand
+			+
+			-
+		ex:  numVar = -10;
+		print(numvar); // -10
+		print(+numvar); // -10
+		print(-numvar); // 10
+		++
+		--
+		Binary Operators
+		which will work on Two Operands
+
+		Arithematic Operators
+			+ - * / %
+		++numVar ==>  numVar = numVar + 1
+
+		numVar++ ==> numVar = numVar + 1
+
+		Comparative Operator
+		>  >=	<  <=  == != 
+		
+		Logical 
+		&& (AND)  ||(OR)  ! (NOT)
+
+		Assignment Operator
+		= += -= *= /= %= 
+		
+		Special Operator
+		sizeof()
+		instanceOf
+
+		Bitwise Operators
+		&(AND)  |(OR)  !(NOT)  ^(XOR)
+		>> (Right Shift)  << (Left Shift) 
+
+		>>> (Sign Shift Operator)
